@@ -2198,6 +2198,8 @@ func Unpack(order binary.ByteOrder, data string) (interface{}, error) {
 	return result, nil
 }
 
+// 三目运算符
+//
 // Ternary Ternary expression
 // max := Ternary(a > b, a, b).(int)
 func Ternary(condition bool, trueVal, falseVal interface{}) interface{} {
